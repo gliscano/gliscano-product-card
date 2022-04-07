@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Card Display component 1`] = `
+<div
+  className="productCard undefined"
+>
+  <h4>
+    Product Card
+  </h4>
+</div>
+`;
+
+exports[`Product Card increase counter 1`] = `
+<div
+  className="productCard undefined"
+>
+  <h4>
+    Product Card
+  </h4>
+  <span>
+    0
+  </span>
+  <button
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`Product Title Display Component with custom title 1`] = `
+<span
+  className="productDescription custom-class"
+>
+  Custom Title
+</span>
+`;
+
+exports[`Product Title Display component with the product name 1`] = `
+<div
+  className="productCard undefined"
+>
+  <span
+    className="productDescription undefined"
+  >
+    Coffee Mug - 001
+  </span>
+</div>
+`;

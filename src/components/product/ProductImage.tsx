@@ -19,7 +19,7 @@ export const ProductImage = ({img, className, style}: Props) => {
   
     if (img) {
       imgToShow = img;
-    } else if (product.img) {
+    } else if (product?.img) {
       imgToShow = product.img;
     } else {
       imgToShow = noImage;
